@@ -14,7 +14,7 @@ clean-docs:
 #clean: clean-docs:
 #  rm -rf lib/ test/*.js
 
-build:
+build: clean
 	# compile coffee-script
 	coffee -o ./build/ -c ./src/
 	# compile jade templates to html
@@ -30,7 +30,7 @@ build-watch:
 	cp -r ./vendor ./build/vendor
 	coffee -w -o ./build/ -c ./src/
 
-build-clean:
+clean:
 	rm -rf ./build/*
 
 test:
