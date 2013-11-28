@@ -15,7 +15,12 @@ clean-docs:
 #  rm -rf lib/ test/*.js
 
 build:
+	# compile coffee-script
 	coffee -o ./build/ -c ./src/
+	# compile jade templates to html
+	mkdir -p ./build/views
+	jade ./src/views --out ./build/views
+  # Add 3rd party JS
 	cp -R ./vendor ./build/vendor
 
 build-watch:
