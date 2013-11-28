@@ -23,6 +23,8 @@ build:
 	# Add 3rd party JS
 	rm -rf ./build/vendor/
 	cp -r ./vendor ./build/vendor
+	# Copy CSS to build
+	cp -r ./assets ./build/assets
 
 build-watch:
 	cp -r ./vendor ./build/vendor
