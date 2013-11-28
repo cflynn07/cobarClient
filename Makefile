@@ -27,6 +27,9 @@ build-watch:
 	cp -R ./vendor ./build/vendor
 	coffee -w -o ./build/ -c ./src/
 
+build-clean:
+	rm -rf ./build/*
+
 test:
 	nodeunit test/refix.js
 
