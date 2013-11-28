@@ -21,10 +21,11 @@ build:
 	mkdir -p ./build/views
 	jade ./src/views --out ./build/views
 	# Add 3rd party JS
-	cp -R ./vendor ./build/vendor
+	rm -rf ./build/vendor/
+	cp -r ./vendor ./build/vendor
 
 build-watch:
-	cp -R ./vendor ./build/vendor
+	cp -r ./vendor ./build/vendor
 	coffee -w -o ./build/ -c ./src/
 
 build-clean:

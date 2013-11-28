@@ -4,7 +4,7 @@ if !window.console.log?
   window.console.log = ->
 
 requirejs.config
-  baseUrl: '/'
+  baseUrl: '/client/'
   paths:
     'angular':                  'vendor/angular'
     'angular-ui':               'vendor/angular-ui'
