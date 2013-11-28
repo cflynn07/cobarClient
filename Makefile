@@ -16,10 +16,10 @@ clean-docs:
 
 build:
 	coffee -o ./build/ -c ./src/
-	cp ./vendor ./build/vendor
+	cp -R ./vendor ./build/vendor
 
 build-watch:
-	cp ./vendor ./build/vendor
+	cp -R ./vendor ./build/vendor
 	coffee -w -o ./build/ -c ./src/
 
 test:
