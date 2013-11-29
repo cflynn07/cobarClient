@@ -21,38 +21,31 @@ OLD CSS
 /**
  *  v1.1.2
  */
-@import url("bootstrap/css/bootstrap.css");
-@import url("css/metro.css");
-@import url("bootstrap/css/bootstrap-responsive.css");
-@import url("font-awesome/css/font-awesome.css");
-@import url("css/style.css");
-
-@import url("css/style_responsive.css");
-@import url("gritter/css/jquery.gritter.css");
-@import url("uniform/css/uniform.default.css");
-@import url("bootstrap-daterangepicker/daterangepicker.css");
-@import url("bootstrap-datetimepicker/bootstrap-datetimepicker.css");
-@import url("gritter/css/jquery.gritter.css");
-
-@import url("bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css");
-@import url("fullcalendar/fullcalendar/fullcalendar.css");
-
-@import url("jqvmap/jqvmap/jqvmap.css");
-@import url("glyphicons/css/glyphicons.css");
-@import url("glyphicons_halflings/css/halflings.css");
-@import url("data-tables/DT_bootstrap.css");
-@import url("jquery-file-upload/css/jquery.fileupload-ui.css");
-@import url("jquery-autocomplete/jquery-ui-1.10.2.custom.css");
-@import url("bootstrap-tree/bootstrap-tree/css/bootstrap-tree.css");
-@import url("angular-ui/angular-ui.css");
-@import url("jquery-ui/jquery.ui.all.css");
-@import url("css/style_light.css");
-@import url("css/sidebar.css");
-
-
-
-@import url("animate.css");
-
-@import url("theme-extensions.css");
-@import url("hide-portlet-wrapper.css");
-@import url("buttons.css");
+@import url("/build/assets/bootstrap/css/bootstrap.css");
+@import url("/build/assets/css/metro.css");
+@import url("/build/assets/bootstrap/css/bootstrap-responsive.css");
+@import url("/build/assets/font-awesome/css/font-awesome.css");
+@import url("/build/assets/css/style.css");
+@import url("/build/assets/css/style_responsive.css");
+@import url("/build/assets/gritter/css/jquery.gritter.css");
+@import url("/build/assets/uniform/css/uniform.default.css");
+@import url("/build/assets/bootstrap-daterangepicker/daterangepicker.css");
+@import url("/build/assets/bootstrap-datetimepicker/bootstrap-datetimepicker.css");
+@import url("/build/assets/gritter/css/jquery.gritter.css");
+@import url("/build/assets/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css");
+@import url("/build/assets/fullcalendar/fullcalendar/fullcalendar.css");
+@import url("/build/assets/jqvmap/jqvmap/jqvmap.css");
+@import url("/build/assets/glyphicons/css/glyphicons.css");
+@import url("/build/assets/glyphicons_halflings/css/halflings.css");
+@import url("/build/assets/data-tables/DT_bootstrap.css");
+@import url("/build/assets/jquery-file-upload/css/jquery.fileupload-ui.css");
+@import url("/build/assets/jquery-autocomplete/jquery-ui-1.10.2.custom.css");
+@import url("/build/assets/bootstrap-tree/bootstrap-tree/css/bootstrap-tree.css");
+@import url("/build/assets/angular-ui/angular-ui.css");
+@import url("/build/assets/jquery-ui/jquery.ui.all.css");
+@import url("/build/assets/css/style_light.css");
+@import url("/build/assets/css/sidebar.css");
+@import url("/build/assets/animate.css");
+@import url("/build/assets/theme-extensions.css");
+@import url("/build/assets/hide-portlet-wrapper.css");
+@import url("/build/assets/buttons.css");
