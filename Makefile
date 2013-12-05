@@ -28,7 +28,8 @@ build: clean
 
 build-watch:
 	cp -r ./vendor ./build/vendor
-	coffee -w -o ./build/ -c ./src/
+	coffee -w -o ./build/ -c ./src/ >> coffee-script.log &
+	jade ./src/views --out ./build/views >> jade.log &
 
 clean:
 	rm -rf ./build/*
